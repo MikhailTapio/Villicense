@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "villicense",
+  "version": "${version}",
+  "name": "villicense",
+  "description": "A license for villager - check & change their job sites or beds",
+  "authors": [
+    "Tapio",
+    "Kennrou_Holo"
+  ],
+  "contact": {
+    "sources": "https://github.com/MikhailTapio/Villicense"
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/villicense/textures/item/villager_license.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.plr.villicense.client.VillicenseClient"
+    ],
+    "main": [
+      "com.plr.villicense.Villicense"
+    ]
+  },
+  "mixins": [
+    "villicense.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
