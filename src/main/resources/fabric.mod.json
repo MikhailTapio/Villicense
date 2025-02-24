@@ -3,7 +3,7 @@
   "id": "villicense",
   "version": "${version}",
   "name": "villicense",
-  "description": "A license for villager - check & change their job sites or beds",
+  "description": "A license for villagers - check & change their job sites or beds",
   "authors": [
     "Tapio",
     "Kennrou_Holo"
